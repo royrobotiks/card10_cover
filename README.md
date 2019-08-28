@@ -16,3 +16,5 @@
         * adjust value for "ledDiffusionThickness" so that the LED diffusor is only one layer high
         * adjust the value for "extra" in order to achieve a tight fit around the Harmonic board
         * I printed mine with .05mm layer height out of white PLA on an Ultimaker 2 with 0.4mm extruder
+        
+        ![card10](https://github.com/royrobotiks/card10_cover/blob/master/P1770557.JPG)
