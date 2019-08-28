@@ -17,5 +17,8 @@
         * adjust the value for "extra" in order to achieve a tight fit around the Harmonic board
         * I printed mine with .05mm layer height out of white PLA on an Ultimaker 2 with 0.4mm extruder
         
-![Alt text](P1770548.JPG) 
-![Screenshot](screenshot.png)
+![LED diffusor](P1770548.JPG) 
+![LED diffusor](P1770554.JPG) 
+![LED diffusor](P1770557.JPG) 
+![LED diffusor](P1770565.JPG) 
+
