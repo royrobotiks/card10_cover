@@ -1,6 +1,3 @@
-# card10_cover
-
-
 ## A random cover generator for the CARD10 badge!
 ![different covers](card10_anim.gif) 
           
