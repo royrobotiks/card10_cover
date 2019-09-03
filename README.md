@@ -1,7 +1,7 @@
-## A random cover generator for the CARD10 badge!
+# A cover generator for the CARD10 badge!
 ![different covers](card10_anim.gif) 
           
-#### Cover features:
+## Cover features:
 - 24576 variations possible!!!
 - buttons become much more usable as they get a bigger surface
 - the cover can be clipped onto the badge - there are no tools required to change the cover
@@ -10,7 +10,7 @@
 - you can turn off the randomization and generate exactly the cover that YOU want!
         
         
-#### How to use
+## How to use
 - Open the .scad file in openSCAD (download from https://www.openscad.org/)
 - [_optional_]: adjust settings below in the section 'CUSTOMIZE YOUR COVER BY ADJUSTING VALUES BELOW:'
 - hit the render button in openSCAD (the button above the code with the hourglass & the cube)
@@ -18,7 +18,7 @@
 - print your .stl model!
         
         
-#### Printing instructions
+## Printing instructions
 
 - print upside down without support
 - recommended slicer settings: 
@@ -28,7 +28,7 @@
             0.4mm extruder
   
   
-#### Assembly instructions
+## Assembly instructions
 
 - clean up the print with a small utility knife
 - [_optional_]: cut a 14mm x 30mm piece of clear plastic as display protection (e.g. from a pet-bottle) and place it inside the display cutout  
