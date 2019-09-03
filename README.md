@@ -1,13 +1,14 @@
 # A cover generator for the CARD10 badge!
 ![different covers](card10_anim.gif) 
           
-## Cover features:
-- 24576 variations possible!!!
+## Features
+- generates easy-to-3d-print covers for the card10 badge 
+- 24576 possible possible variations - all card10 owner can generate their individual cover
 - buttons become much more usable as they get a bigger surface
 - the cover can be clipped onto the badge - there are no tools required to change the cover
 - you can add a piece of clear plastic (e.g. cutout from a pet bottle) as display protection 
-- the model has no overhangs, thus it is very easy to print (except if you turn side led's on)
-- you can turn off the randomization and generate exactly the cover that YOU want!
+- no overhangs, thus it is very easy to print (except if you turn side led's on)
+- you can make a random cover or turn off the randomization and generate exactly the cover that YOU need!
         
         
 ## How to use
