@@ -6,12 +6,12 @@
           
           Cover features:
           ---------------
-        - 24576 variations possible!!!
-        - buttons become much more usable as they get a bigger surface
-        - the cover can be clipped onto the badge - there are no tools required to change the cover
-        - you can add a piece of clear plastic (e.g. cutout from a pet bottle) as display protection 
-        - the model has no overhangs, thus it is very easy to print (except if you turn side led's on)
-        - you can turn off the randomization and generate exactly the cover that YOU want!
+- 24576 variations possible!!!
+- buttons become much more usable as they get a bigger surface
+- the cover can be clipped onto the badge - there are no tools required to change the cover
+- you can add a piece of clear plastic (e.g. cutout from a pet bottle) as display protection 
+- the model has no overhangs, thus it is very easy to print (except if you turn side led's on)
+- you can turn off the randomization and generate exactly the cover that YOU want!
         
         
           How to use:
