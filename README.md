@@ -42,7 +42,7 @@ I added three stl files as examples. Here's a print of the model 1337haxx0r with
 
 ![card10-model 1337haxx0r](P1770622.JPG)
 
-All of the models feature a recessed display cutout where you can place a 30mm x 14mm transparent plastic piece as display protection
+All of the models feature a recessed display cutout where you can place a 30mm x 14mm transparent plastic piece as display protection.
 
 ![cover with plastic display protection](P1770635.JPG)
 
