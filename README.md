@@ -35,3 +35,13 @@
 - [_optional_]: cut a 14mm x 30mm piece of clear plastic as display protection (e.g. from a pet-bottle) and place it inside the display cutout  
 - clip the cover onto your card10 badge
 - post a picture of your covered badge with the hashtag **#card10**
+
+## Examples
+
+I added three stl files as examples. Here's a print of the model 1337haxx0r with all features unlocked:
+
+![card10-model 1337haxx0r](P1770622.JPG)
+
+All of the models feature a recessed display cutout where you can place a 30mm x 14mm transparent plastic piece as display protection
+
+![cover with plastic display protection](P1770622.JPG)
