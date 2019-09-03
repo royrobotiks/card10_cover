@@ -15,7 +15,7 @@
         
 #### How to use
 - Open the .scad file in openSCAD (download from https://www.openscad.org/)
-- [optional]: adjust settings below in the section 'CUSTOMIZE YOUR COVER BY ADJUSTING VALUES BELOW:'
+- [_optional_]: adjust settings below in the section 'CUSTOMIZE YOUR COVER BY ADJUSTING VALUES BELOW:'
 - hit the render button in openSCAD (the button above the code with the hourglass & the cube)
 - hit the .stl export button right next to the render button
 - print your .stl model!
@@ -34,6 +34,6 @@
 #### Assembly instructions
 
 - clean up the print with a small utility knife
-- [optional]: cut a 14mm x 30mm piece of clear plastic as display protection (e.g. from a pet-bottle) and place it inside the display cutout  
+- [_optional_]: cut a 14mm x 30mm piece of clear plastic as display protection (e.g. from a pet-bottle) and place it inside the display cutout  
 - clip the cover onto your card10 badge
 - post a picture of your covered badge with the hashtag **#card10**
