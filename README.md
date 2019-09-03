@@ -44,4 +44,6 @@ I added three stl files as examples. Here's a print of the model 1337haxx0r with
 
 All of the models feature a recessed display cutout where you can place a 30mm x 14mm transparent plastic piece as display protection
 
-![cover with plastic display protection](P1770622.JPG)
+![cover with plastic display protection](P1770635.JPG)
+
+The other examples are printing right now and I'll upload some photos later.
