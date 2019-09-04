@@ -50,6 +50,6 @@ Here's the model 'functional style' with half diffusor after loosing a round of 
 
 ![functional style](/pics/P1770665.JPG)
 
-And here's a bunch of prints with different features:
+And here's a bunch of prints with different features. I cut out pieces from some food packaging for the screen protectors:
 
 ![different card10 cover prints](/pics/P1770695.JPG)
