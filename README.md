@@ -46,4 +46,6 @@ All of the models feature a recessed display cutout where you can place a 30mm x
 
 ![cover with plastic display protection](P1770635.JPG)
 
-The other examples are printing right now and I'll upload some photos later.
+Here's the model 'functional style' after loosing a round of Tetris:
+
+![functional style](P1770665.JPG)
