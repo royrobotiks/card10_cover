@@ -52,4 +52,4 @@ Here's the model 'functional style' after loosing a round of Tetris:
 
 And here's a bunch of prints with different features:
 
-![functional style](P1770695.JPG)
+![different card10 cover prints](P1770695.JPG)
