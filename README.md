@@ -53,3 +53,7 @@ Here's the model 'functional style' with half diffusor after loosing a round of 
 And here's a bunch of prints with different features. I cut out pieces from some food packaging for the screen protectors:
 
 ![different card10 cover prints](/pics/P1770695.JPG)
+
+There were plenty of test prints involved in making this work out nicely: 
+
+![different card10 cover prints](/pics/P1770698.JPG)
