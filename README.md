@@ -40,16 +40,16 @@
 
 I added three stl files as examples. Here's a print of the model 1337haxx0r with all features unlocked:
 
-![card10-model 1337haxx0r](P1770622.JPG)
+![card10-model 1337haxx0r](/pics/P1770622.JPG)
 
 All of the models feature a recessed display cutout where you can place a 30mm x 14mm transparent plastic piece as display protection.
 
-![cover with plastic display protection](P1770635.JPG)
+![cover with plastic display protection](/pics/P1770635.JPG)
 
 Here's the model 'functional style' after loosing a round of Tetris:
 
-![functional style](P1770665.JPG)
+![functional style](/pics/P1770665.JPG)
 
 And here's a bunch of prints with different features:
 
-![different card10 cover prints](P1770695.JPG)
+![different card10 cover prints](/pics/P1770695.JPG)
