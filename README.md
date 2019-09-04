@@ -9,6 +9,8 @@
 - you can add a piece of clear plastic (e.g. cutout from a pet bottle) as display protection 
 - no overhangs, thus it is very easy to print (except if you turn side led's on)
 - you can make a random cover or turn off the randomization and generate exactly the cover that YOU need!
+
+#### Are there features missing? Let me know and I'll implement them in the next design revision!
         
         
 ## How to use
