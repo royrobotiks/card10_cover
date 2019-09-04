@@ -35,7 +35,7 @@
 - Clean up the print with a small utility knife
 - [_optional_]: cut a 14mm x 30mm piece of clear plastic as display protection (e.g. from a pet-bottle) and place it inside the display cutout  
 - Clip the cover onto your card10 badge
-- Post a picture of your covered badge with the hashtag **#card10**
+- Post a picture of your covered badge with the hashtag **#card10** - it will make me happy to discover it :)
 
 ## Examples
 
