@@ -46,7 +46,7 @@ All of the models feature a recessed display cutout where you can place a 30mm x
 
 ![cover with plastic display protection](/pics/P1770635.JPG)
 
-Here's the model 'functional style' after loosing a round of Tetris:
+Here's the model 'functional style' with half diffusor after loosing a round of Tetris:
 
 ![functional style](/pics/P1770665.JPG)
 
