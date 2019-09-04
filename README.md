@@ -49,3 +49,7 @@ All of the models feature a recessed display cutout where you can place a 30mm x
 Here's the model 'functional style' after loosing a round of Tetris:
 
 ![functional style](P1770665.JPG)
+
+And here's a bunch of prints with different features:
+
+![functional style](P1770695.JPG)
