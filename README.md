@@ -51,7 +51,7 @@
 
 ## Examples
 
-I added three stl files as examples. Here's a print of the model 1337haxx0r with all features unlocked:
+I added some stl files which were generated with Version 1 & 2 as examples. Here's a print of the model 1337haxx0r with all features unlocked:
 
 ![card10-model 1337haxx0r](/pics/P1770622.JPG)
 
