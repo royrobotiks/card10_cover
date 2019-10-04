@@ -64,12 +64,20 @@
           ----------------------------------------------------------------------------
 */
 echo("///////////////  CARD10 COVER GENERATOR  ///////////////");
-none=0;half=1;full=2;normal=0;tiny=1;hidden=1;
-visible=2;protected=3;protectedX=4;
+
+//generate random seed number for all random generators
+
+rndSeed=round(rands(0,5000,1)[0]); 
+
+echo("Generating cover #");
+echo(rndSeed);
+
+none=0;half=1;full=2;normal=0;tiny=1;hidden=0;
+visible=1;protected=2;protectedX=3;
 wide=32;standard=25;
 plain=0;  hexagons=1; pacman=2; heartbeat=3; flash=4;
-function maybe()=round(rands(0,1,1)[0])==1;
-function rnd(x) =round(rands(0,x,1)[0]);
+function maybe()=round(rands(0,1,1,seed_value=rndSeed)[0])==1;
+function rnd(x) =round(rands(0,x,1,seed_value=rndSeed)[0]);
 
 //////////////////////////////////////////////////////////
 
@@ -92,6 +100,7 @@ generateMClip       = true;
 // ***********************************************
 
 // do you want to connect a 3D-printed wristband to your case?
+// %% 'Generate wristband' bool true 
 wristBand           = true;
 
 // wrist band width - options are 'standard' and 'wide'
@@ -113,27 +122,35 @@ ledDiffusor         = rnd(2);//half;
 
 // toggle sideways visibility of top row led's 
 // - if set to 'true', you'll have to print with minimal overhangs!
+// %% 'LED top side cutout' bool true 
 sideLEDs            = maybe();//true; 
 
 // add protruding led protector on top
+// %% 'Extended LED bar' bool true 
 extendedLEDs        = maybe();//true;
 
 // toggle cutout for visibility of personal state led
+// %% 'Personal State LED visibility' bool true 
 personalStateLED    = maybe();//true;  
 
 // toggle visibility of left led rocket
+// %% 'Left rocket visibility' bool true 
 showLeftRocket      = maybe();//false;
 
 // toggle visibility of right led rocket
+// %% 'Right rocket visibility' bool true 
 showRightRocket     = maybe();//true;  
 
 // toggle visibility of top led rocket
+// %% 'Top rocket visibility' bool true 
 showTopRocket       = maybe();//false;  
 
 // toggle cutout for sewable connectors
+// %% 'GPIO accessibility' bool true 
 GPIOaccess          = maybe();//true;  
 
 // toggle bevels - [no bevels make the cover look more blocky]
+// %% 'Bevels' bool true 
 bevels              = maybe();//false; 
 
 // toggle size of on-off-home button. options are:
@@ -143,30 +160,37 @@ homeButtonCover     = normal;
 
 // toggle whether buttons have a riffled surface 
 // - otherwise button surface is flat
+// %% 'Riffled buttons' bool true 
 riffledButtons      = maybe();//true;  
 
 // cut out a small rectangle above the physical button in order to 
 // make silver button case visible. blingbling!
+// %% 'Shiny button cutouts' bool true 
 shinyButtons        = maybe();//false;
 
 // show more of the display module than just the screen area
 // - when false, ccc is shown on the left side of the screen area
+// %% 'Large screen cutout' bool true 
 largeScreen         = maybe();//false;  
 
-// toggle visibility of CARD10 logo      
+// toggle visibility of CARD10 logo   
+// %% 'Logo visibility' bool true    
 showLogo            = maybe();//false;  
 
 // set screw style. options are 'hidden', 'visible', 'protected' or 'protectedX'
 screwStyle          = rnd(4);//protected; 
 
 // embossed rings around screws?
+// %% 'Screw visibility' bool true 
 screwRings          = maybe();//false; 
 
 
 // a little useless grill on top of the spikes???
+// %% 'Useless grill' bool true 
 spikeGrill          = maybe();//true;
 
 //make multicolor prints by changing the filament after the first layer was printed - can be also just set to true if you want to have a bit more texture in the first layer
+// %% 'First layer texture' bool true 
 firstLayerDeco=maybe();//;
     
 // END OF CUSTOMIZATION!
@@ -1238,7 +1262,7 @@ if (printOrientation){
 }else{
         // non-print orientation (assembly view)
     echo("display in assembly view");
-     color( c = rands(.3,.9,3) ){
+     color( c = rands(.3,.9,3,seed_value=rndSeed) ){
      if(generateMClip&&wristBand)translate([0,+beltLengthTop+34,0])mClip();
      if(generateFClip&&wristBand)translate([0,-beltLengthTop-30,5])fClip();
      if(generateBeltTop&&wristBand)translate([0,0,5])beltTop();
@@ -1248,6 +1272,7 @@ if (printOrientation){
      
      }    
 }
-        
+     
+
 
 
