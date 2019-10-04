@@ -2,40 +2,52 @@
 ![different covers](/pics/card10_anim.gif) 
           
 ## Features
-- Generates easy-to-3d-print covers for the card10 badge 
-- 24576 possible possible variations - all card10 owner can generate their individual cover
-- Buttons become much more usable as they get a bigger surface
-- The cover can be clipped onto the badge - there are no tools required to change the cover
-- You can add a piece of clear plastic (e.g. cutout from a pet bottle) as display protection 
-- No overhangs, thus it is very easy to print (except if you turn side led's on)
-- You can make a random cover or turn off the randomization and generate exactly the cover that YOU need!
-- **Are there features missing? Let me know and I'll implement them in the next design revision!**
+- more variations possible than you'll ever need!!!
+- buttons become much more usable as they get a bigger surface
+- the cover can be clipped onto the badge - there are no tools required to change the cover
+- you can add a piece of clear plastic (e.g. cutout from a cheese packaging) as display protection 
+- the model has no overhangs, thus it is very easy to print (except if you turn side led's on)
+- you can turn off the randomization and generate exactly the cover that YOU want!
         
         
 ## How to use
-- Open the .scad file in openSCAD (download from https://www.openscad.org/)
-- [_optional_]: adjust settings below in the section 'CUSTOMIZE YOUR COVER BY ADJUSTING VALUES BELOW:'
-- Hit the render button in openSCAD (the button above the code with the hourglass & the cube)
-- Hit the .stl export button right next to the render button
-- Print your .stl model!
+- open this code in openSCAD (download from https://www.openscad.org/)
+- specify whether you want a model with wristband or without (line 82) / the option
+          with wristband also adds the wristband mounts to the watch cover
+- if you want to print a wristband, specify the sircumference of your wrist in line 107
+- specify from line 69 on which parts you want to generate 
+- select in line 68 if you want to have the parts oriented ready for print or in the way they will be
+          assembled later
+- [optional]: adjust settings below in the section 'CUSTOMIZE YOUR COVER BY ADJUSTING VALUES BELOW:'
+- hit the render button in openSCAD (the button above the code with the hourglass & the cube)
+- hit the .stl export button right next to the render button
+- print your .stl model!
         
         
 ## Printing instructions
 
-- Print upside down without support
-- Recommended slicer settings: 
-            0.1mm layer height
-            0.4mm wall thickness
-            100% infill with 
-            0.4mm extruder
+- print upside down without support out of PLA
+- recommended slicer settings: 
+   0.2mm layer height
+   0.4mm wall thickness / 1 wall
+   100% infill 
+   0.4mm extruder
   
   
 ## Assembly instructions
 
-- Clean up the print with a small utility knife
-- [_optional_]: cut a 14mm x 30mm piece of clear plastic as display protection (e.g. from a pet-bottle) and place it inside the display cutout  
-- Clip the cover onto your card10 badge
-- Post a picture of your covered badge with the hashtag **#card10** - it will make me happy to discover it :)
+- clean up the print with a small utility knife
+- [optional]: cut a 14mm x 30mm piece of clear plastic as display protection (e.g. from a pet-bottle) 
+                      and place it inside the display cutout 
+- If you printed a wristband: Glue FClip on the end of the bottom wristband (e.g. with superglue)
+- connect MClip with the top wristband (with a paper clip as axle)
+- connect both wristbands to the cover (with paper clips as axles)
+- if you printed a bottom: Unscrew the four screws on the bottom of the Card10, 
+          remove the stainless steel electrodes, add the bottom piece, add the electrodes, 
+          add the screws again.
+- clip the cover onto your card10 badge
+- print another cover for your friends
+          
 
 ## Examples
 
