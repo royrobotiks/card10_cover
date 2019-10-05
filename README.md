@@ -49,6 +49,19 @@
 - print another cover for your friends
           
 
+## Wristband assembly
+
+![](/pics/pac1.JPG)
+![](/pics/pac2.JPG)
+![](/pics/pac3.JPG)
+![](/pics/pac4.JPG)
+![](/pics/pac5.JPG)
+![](/pics/pac6.JPG)
+![](/pics/pac7.JPG)
+![](/pics/pac8.JPG)
+![](/pics/pac9.JPG)
+
+
 ## Examples
 
 I added some stl files which were generated with Version 1 & 2 as examples. Here's a print of the model 1337haxx0r with all features unlocked:
