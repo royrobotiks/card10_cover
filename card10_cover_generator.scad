@@ -3,7 +3,7 @@
           A random cover generator for the CARD10 badge!
           ==============================================
           
-          V3.0
+          V3.1
           
           Cover features:
           ---------------
@@ -72,8 +72,8 @@ rndSeed=round(rands(0,5000,1)[0]);
 echo("Generating cover #");
 echo(rndSeed);
 
-none=0;half=1;full=2;normal=0;tiny=1;hidden=0;
-visible=1;protected=2;protectedX=3;
+none=0;half=1;full=2;normal=0;tiny=1;hidden=1;
+visible=2;protected=3;protectedX=4;
 wide=32;standard=25;
 plain=0;  hexagons=1; pacman=2; heartbeat=3; flash=4;
 function maybe()=round(rands(0,1,1,seed_value=rndSeed)[0])==1;
@@ -83,14 +83,22 @@ function rnd(x) =round(rands(0,x,1,seed_value=rndSeed)[0]);
 
 // display all parts either in optimized print orientation 
 // [ideal for exporting stl's for fdm prints] or in assembly view
+
+// %% 'Print view' bool false 
 printOrientation=false;
 
 // select which parts you want to generate
+// %% 'Generate watch cover' bool true 
 generateCover       = true;
+// %% 'Generate bottom plate' bool false 
 generateBottom      = true;
+// %% 'Generate wristband top' bool true 
 generateBeltTop     = true;
+// %% 'Generate wristband bottom' bool true 
 generateBeltBottom  = true;
-generateFClip       = true;
+// %% 'Generate F clip' bool true 
+generateFClip       = true; 
+// %% 'Generate M clip' bool true 
 generateMClip       = true;
 
 
@@ -104,13 +112,16 @@ generateMClip       = true;
 wristBand           = true;
 
 // wrist band width - options are 'standard' and 'wide'
+// %% 'Wristband width' select (25='Standard',32='Wide') 
 beltWidth           =  standard; 
 
 // plain', 'pacman', 'hexagons', 'heartbeat', 'flash'
+// %% 'Wristband style' select (0='Plain',1='Hexagons',2='Pacman',3='Heartbeat',4='Flash') 
 beltStyle           = rnd(4);//flash;
 
 
 //circumference of the wrist in mm
+// %% 'Wrist circumference' int (min=140,max=250,default=190)
 wristCircumference  = 190;
 
 // adjust diffusion layer above leds - options are:
@@ -118,6 +129,7 @@ wristCircumference  = 190;
 // 'half' [only diffusion at bottom ...
 //           ... led's won't blind you when you look at the display]
 // 'none' [led's remain fully open - you get top brightness!]
+// %% 'LED diffusor' select (0='None',1='Half',2='Full')
 ledDiffusor         = rnd(2);//half;  
 
 // toggle sideways visibility of top row led's 
@@ -156,6 +168,8 @@ bevels              = maybe();//false;
 // toggle size of on-off-home button. options are:
 // - 'normal' [explains itself]
 // - 'tiny'   [tiny button in order to avoid accidental turn-off]
+
+// %% 'Home button cover' select (0='Normal',1='Tiny') 
 homeButtonCover     = normal;  
 
 // toggle whether buttons have a riffled surface 
@@ -178,12 +192,12 @@ largeScreen         = maybe();//false;
 showLogo            = maybe();//false;  
 
 // set screw style. options are 'hidden', 'visible', 'protected' or 'protectedX'
-screwStyle          = rnd(4);//protected; 
+// %% 'Wristband style' select (1='Hidden',2='Visible',3='Protected',4='X-Protected') 
+screwStyle          = rnd(3)+1;//protected; 
 
 // embossed rings around screws?
 // %% 'Screw visibility' bool true 
 screwRings          = maybe();//false; 
-
 
 // a little useless grill on top of the spikes???
 // %% 'Useless grill' bool true 
@@ -1272,7 +1286,17 @@ if (printOrientation){
      
      }    
 }
-     
+        
+            
+    
+
+
+    
+
+    
+
+
+
 
 
 
