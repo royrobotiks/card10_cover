@@ -1,5 +1,5 @@
 # A cover generator for the CARD10 badge!
-![different covers](/pics/cover2.gif) 
+![different covers](/pics/cover3.gif) 
           
 ## Features
 - more variations possible than you'll ever need!!!
