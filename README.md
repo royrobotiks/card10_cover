@@ -61,7 +61,7 @@ Step 2: Make sure that MClip fits smooth into FClip.
 Step 3: Glue FClip onto the bottom piece of the wristband. 
 
 ![](/pics/pac4.jpg)
-Pro-tip: Clothespins are nice for clamping the pieces together while the glue cures. A piece of tape (e.g. electric tape or the yellow foild on double sided tape prevents the superglue to bond with the clothespins).
+Pro-tip: Clothespins are nice for clamping the pieces together while the glue cures. A piece of tape (e.g. electric tape or the yellow back-foil on double sided tesa tape prevents the superglue to bond with the clothespins).
 
 ![](/pics/pac5.jpg)
 Step 4: Connect MClip and the top part of the wristband with a paperclip. Cut the paperclip to size.
