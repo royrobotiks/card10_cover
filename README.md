@@ -51,15 +51,15 @@
 
 ## Wristband assembly
 
-![](/pics/pac1.JPG)
-![](/pics/pac2.JPG)
-![](/pics/pac3.JPG)
-![](/pics/pac4.JPG)
-![](/pics/pac5.JPG)
-![](/pics/pac6.JPG)
-![](/pics/pac7.JPG)
-![](/pics/pac8.JPG)
-![](/pics/pac9.JPG)
+![](/pics/pac1.jpg)
+![](/pics/pac2.jpg)
+![](/pics/pac3.jpg)
+![](/pics/pac4.jpg)
+![](/pics/pac5.jpg)
+![](/pics/pac6.jpg)
+![](/pics/pac7.jpg)
+![](/pics/pac8.jpg)
+![](/pics/pac9.jpg)
 
 
 ## Examples
