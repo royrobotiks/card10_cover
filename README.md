@@ -52,14 +52,32 @@
 ## Wristband assembly
 
 ![](/pics/pac1.jpg)
+Step 1: Clean up the inside of FClip with a small file.
+
 ![](/pics/pac2.jpg)
+Step 2: Make sure that MClip fits smooth into FClip.
+
 ![](/pics/pac3.jpg)
+Step 3: Glue FClip onto the bottom piece of the wristband. 
+
 ![](/pics/pac4.jpg)
+Pro-tip: Clothespins are nice for clamping the pieces together while the glue cures. A piece of tape (e.g. electric tape or the yellow foild on double sided tape prevents the superglue to bond with the clothespins).
+
 ![](/pics/pac5.jpg)
+Step 4: Connect MClip and the top part of the wristband with a paperclip. Cut the paperclip to size.
+
 ![](/pics/pac6.jpg)
+Step 5: Heat up a piece of pipe with a hot air gun...
+
+
 ![](/pics/pac7.jpg)
+... and use the hot pipe to bend the wristband pieces.
+
 ![](/pics/pac8.jpg)
+Step 6: Connect the wristband pieces and the cover with paperclips.
+
 ![](/pics/pac9.jpg)
+This is the finished clip-on cover! You can also add the bottom plate to your Card10. This would be screwed in between the lower circuit board and the metal electrodes.
 
 
 ## Examples
