@@ -2,6 +2,7 @@
 ![different covers](/pics/cover3.gif) 
           
 ## Features
+- interactive web interface available at https://card10-cover.0x1b.de/index.php (thx to Thomas!)
 - more variations possible than you'll ever need!!!
 - buttons become much more usable as they get a bigger surface
 - the cover can be clipped onto the badge - there are no tools required to change the cover
