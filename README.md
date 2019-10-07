@@ -14,7 +14,7 @@
 ## How to use
 - open this code in openSCAD (download from https://www.openscad.org/)
 - specify whether you want a model with wristband or without (line 82) / the option
-          with wristband also adds the wristband mounts to the watch cover
+          with wristband also adds the wristband mounts (32 mm) to the watch cover
 - if you want to print a wristband, specify the sircumference of your wrist in line 107
 - specify from line 69 on which parts you want to generate 
 - select in line 68 if you want to have the parts oriented ready for print or in the way they will be
