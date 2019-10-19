@@ -3,7 +3,7 @@
           A random cover generator for the CARD10 badge!
           ==============================================
           
-          V3.1
+          V3.2
           
           Cover features:
           ---------------
@@ -107,9 +107,9 @@ generateMClip       = true;
 // CUSTOMIZE YOUR COVER BY ADJUSTING VALUES BELOW:
 // ***********************************************
 
-// do you want to connect a 3D-printed wristband to your case?
+// do you want to connect a 3D-printed wristband to your case? // this toggles the belt mounts on the case
 // %% 'Generate wristband' bool true 
-wristBand           = true;
+wristBand           = false;
 
 // wrist band width - options are 'standard' and 'wide'
 // %% 'Wristband width' select (25='Standard',32='Wide') 
@@ -1258,15 +1258,15 @@ echo("assemble parts");
 if (printOrientation){
     echo("display in print orientation");
      color( c = rands(.3,.9,3) ){
-     if(generateMClip&&wristBand)translate([-10,0,0])rotate([0,0,90])mClip();
-     if(generateFClip&&wristBand)translate([-46,0,25.5])rotate([90,0,90])fClip();
+     if(generateMClip)translate([-10,0,0])rotate([0,0,90])mClip();
+     if(generateFClip)translate([-46,0,25.5])rotate([90,0,90])fClip();
      
          if(generateCover || generateBottom){
-         if(generateBeltTop&&wristBand)translate([95,-42,5])rotate([0,0,90])beltTop();
-         if(generateBeltBottom&&wristBand)translate([95,42,5])rotate([0,0,-90])beltBottom();
+         if(generateBeltTop)translate([95,-42,5])rotate([0,0,90])beltTop();
+         if(generateBeltBottom)translate([95,42,5])rotate([0,0,-90])beltBottom();
              }else{
-         if(generateBeltTop&&wristBand)translate([-30,-18,5])rotate([0,0,-90])beltTop();
-         if(generateBeltBottom&&wristBand)translate([-30,18,5])rotate([0,0,90])beltBottom();
+         if(generateBeltTop)translate([-30,-18,5])rotate([0,0,-90])beltTop();
+         if(generateBeltBottom)translate([-30,18,5])rotate([0,0,90])beltBottom();
              }
      
      
@@ -1277,12 +1277,12 @@ if (printOrientation){
         // non-print orientation (assembly view)
     echo("display in assembly view");
      color( c = rands(.3,.9,3,seed_value=rndSeed) ){
-     if(generateMClip&&wristBand)translate([0,+beltLengthTop+34,0])mClip();
-     if(generateFClip&&wristBand)translate([0,-beltLengthTop-30,5])fClip();
-     if(generateBeltTop&&wristBand)translate([0,0,5])beltTop();
-     if(generateBeltBottom&&wristBand)translate([0,0,5])beltBottom();
+     if(generateMClip)translate([0,+beltLengthTop+34,0])mClip();
+     if(generateFClip)translate([0,-beltLengthTop-30,5])fClip();
+     if(generateBeltTop)translate([0,0,5])beltTop();
+     if(generateBeltBottom)translate([0,0,5])beltBottom();
      if(generateCover)translate([0,0,5])watchBody();
-     if(generateBottom)translate([60,0,-3])bottom();
+     if(generateBottom)translate([70,0,-3])bottom();
      
      }    
 }
@@ -1290,8 +1290,6 @@ if (printOrientation){
             
     
 
-
-    
 
     
 
