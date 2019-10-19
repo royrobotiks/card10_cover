@@ -109,7 +109,7 @@ generateMClip       = true;
 
 // do you want to connect a 3D-printed wristband to your case? // this toggles the belt mounts on the case
 // %% 'Generate wristband' bool true 
-wristBand           = false;
+wristBand           = true;
 
 // wrist band width - options are 'standard' and 'wide'
 // %% 'Wristband width' select (25='Standard',32='Wide') 
@@ -1293,6 +1293,7 @@ if (printOrientation){
 
     
 
+    
 
 
 
